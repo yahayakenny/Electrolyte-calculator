@@ -15,29 +15,31 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+   
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
   </head>
   <body>
-    <div class="row">
+    <div class="row" id = "electrolyte">
         <div class="container">
             <h4 class = "col s12 m12">Dr Yahaya H.K's Electrolyte Correction Calculator for Na+ and K+.</h4>
             <form class="col s12 m12" id ="form">
                 <div class="row">
-                  <h5>Please note the following: For K+ correction, do not exceed more than 40mmol in 1L IVF and not more than 20mmol in 500mls IVF which runs over 6-8hrs. Ceiling Dose is not more than 100mmol of K+ daily. </h5>
-                  <h6><p>For Na+ correction: The expected Na+ should not exceed more than 12mmol above the observed value.</p></h6>
-                  <div class="input-field col s12 m6 flow-text">
+                  <h5>Please note the following: <br><br>
+                  For K+ correction: Do not exceed more than 40mmol in 1L IVF and not more than 20mmol in 500mls IVF which runs over 6-8hrs. For adults, the ceiling dose is not more than 200mmol of K+ daily and for children, not more than 100mmol of K+ daily. </h5>
+                  <h5>For Na+ correction: The expected Na+ should not exceed more than 12mmol above the observed value.</h5>
+                  <div class="input-field col s12 m12 flow-text">
                     <input id="expected" class="validate"type="number" />
                     <label for="expected" class= "active">Expected Na/K level(mmol/l)</label>
                   </div>
                 </div>
                   <div class ="row">
-                    <div class="input-field col s12 m6 flow-text">
+                    <div class="input-field col s12 m12 flow-text">
                         <input id="observed" type="number" />
                         <label for="observed" class= "active">Observed Na/K Level(mmol/l)</label>
                       </div>
                   </div>
                 <div class="row">
-                  <div class="input-field col s12 m6 flow-text">
+                  <div class="input-field col s12 m12 flow-text">
                     <input type="number" id="weight" />
                     <label class= "active"for="weight">Body Weight(Kg)</label>
                   </div>
@@ -45,19 +47,19 @@
                 <a class="waves-effect waves-light btn" id ="submit">Calculate</a>
                 <br><br>
                 <div class="row">
-                  <div class="input-field col s12 m6 flow-text">
+                  <div class="input-field col s12 m12 flow-text">
                     <input id="maintenance" type="text" />
                     <label class= "active"for="maintenance">Daily Maintenace(mmols) for K+ </label>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="input-field col s12 m6 flow-text">
+                  <div class="input-field col s12 m12 flow-text">
                     <input id="deficit" type="text" />
                     <label class= "active"for="deficit">Daily Deficit(mmols) </label>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="input-field col s12 m6 flow-text">
+                  <div class="input-field col s12 m12 flow-text">
                     <input id="total" type="text" />
                     <label for="total" class='active'>Total(mmols) </label>
                   </div>
