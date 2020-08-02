@@ -10,22 +10,25 @@ deficit.value = (expected.value - observed.value) * 0.6 * bodyWeight.value;
 function calcMaintenance() {
   if (expected.value === '') {
     alert('Please enter an expected value');
+   
   } else {
     return (maintenance.value = 2 * bodyWeight.value);
   }
 }
 
 function calcDeficit() {
+   deficit.value = ((expected.value - observed.value) * 0.6 * bodyWeight.value).toFixed(2);
+
   if (observed.value === '') {
     alert('Please enter an observed value');
+    
   }
 
-  deficit.value = ((expected.value - observed.value) * 0.6 * bodyWeight.value).toFixed(2);
-
-  if (deficit.value < 0) {
+  if (deficit.value < 0 ) {
     alert(
       'Please Check your input values properly, You have filled in incorrect parameters'
     );
+
   } else {
     return deficit.value
   }
@@ -47,7 +50,8 @@ function calcTotal() {
     'mmols';
 
   if (deficit.value < 0 || observed.value === '' || deficit.value === '') {
-    return (total.value = 'Incorrect input parameters entered, please check again');
+     total.value = 'Incorrect input parameters entered, Please check again';
+     deficit.value = "Incorrect parameters"
   } else {
     return (total.value = output);
   }
