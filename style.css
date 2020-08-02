@@ -8,6 +8,10 @@ body {
     color: white;
 }
 
+.note {
+    margin-left: 10px;
+}
+
 .container h4 {
     color: orangered;
 }
