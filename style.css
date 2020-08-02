@@ -1,0 +1,46 @@
+html, body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.container h4 {
+    color: orangered;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+    font-family: 'Raleway';
+}
+
+.row h5{
+    font-size: 15px;
+}
+
+.row h6{
+font-size: 10px;
+}
+
+#total {
+    font-size: 12px;
+    width: 400px;
+}
+
+.flex {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+}
