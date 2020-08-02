@@ -46,8 +46,8 @@ function calcTotal() {
     totalValue.toFixed(2) +
     'mmols';
 
-  if (deficit.value < 0) {
-    return (total.value = 'Incorrect Parameters Entered, please check again');
+  if (deficit.value < 0 || observed.value === '' || deficit.value === '') {
+    return (total.value = 'Incorrect input parameters entered, please check again');
   } else {
     return (total.value = output);
   }
