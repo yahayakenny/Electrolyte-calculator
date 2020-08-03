@@ -19,6 +19,7 @@ body {
 input {
     color: white;
 }
+
 label{
     font-size: 16px !important;
 }
@@ -51,7 +52,8 @@ font-size: 10px;
 
 .disclaimer {
     color: orangered;
-    font-weight: 25px !important;
+    font-size: 20px !important;
+    margin-bottom: -8px !important;
 }
 
 .tool {
