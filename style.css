@@ -14,6 +14,7 @@ body {
 
 .container h4 {
     color: orangered;
+    font-weight: bolder !important;
 }
 input {
     color: white;
@@ -48,6 +49,14 @@ font-size: 10px;
     display: flex;
 }
 
+.disclaimer {
+    color: orangered;
+    font-weight: 25px !important;
+}
+
+.tool {
+    line-height: 20px;
+}
 @media screen and (min-width: 767px) {
 #electrolyte {
     margin: 0 auto;
