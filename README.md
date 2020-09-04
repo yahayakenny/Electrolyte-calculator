@@ -22,5 +22,14 @@ The live site can be viewed here https://electrolyte-calculator.netlify.app/
 - Materialise CSS
 - Javascript
 
+# How to use
+Please note the following very important information:
+- For K+ correction: Do not exceed more than 40mmol in 1L IVF and not more than 20mmol in 500mls IVF which runs over 6-8hrs. 
+- For adults, the ceiling dose is not more than 200mmol of K+ daily while for children, not more than 100mmol of K+ daily.
+- For Na+ correction: The expected Na+ should not exceed more than 12mmol above the observed value.
+
+# Disclaimer 
+This tool is provided for educational and informational purposes only. While i hope you find it useful to you as a healthcare professional, it is in no way intended to serve as a diagnostic service or platform, to provide certainty with respect to a diagnosis, or to otherwise substitute for the clinical judgment of a qualified healthcare professional.
+
 ## License
 Yahaya Kehinde 2020.
